@@ -1,0 +1,52 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.about-title, .hobbies-title{
+    font-family: 'Montserrat', sans-serif;
+   margin-left: 60px; 
+}
+.hobbies {
+    margin-left: 50px;
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid #000000;
+    padding: 10px;
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;   
+}
+.abouts {
+    margin-left: 50px;
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid #000000;
+    padding: 10px;
+    border-radius: 10px;
+    width: 400px;
+    height: 180px;   
+}
+
+
+#footer {
+    margin-top: auto;
+    background-color: #000000;
+    color: #ccc;
+    text-align: center;
+    padding: 15px 20px;
+    font-size: 14px;
+    font-family: sans-serif;
+    border-top: 1px solid #000000;
+}
+
+#footer p {
+    margin: 0;
+    line-height: 1.5;
+}

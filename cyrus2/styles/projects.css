@@ -1,0 +1,23 @@
+.projects-title {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.img1, .img2 {
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    width: 500px;
+    height: 80%;
+    object-fit: fill;
+    border-radius: 12px;
+    vertical-align: middle;
+    margin-left: 100px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+    position:relative;
+    left: 105px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.img1:hover, .img2:hover {
+    transform: translateY(-10px); 
+}

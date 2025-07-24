@@ -1,0 +1,30 @@
+.me {
+    position: absolute;
+    width: 25%;
+    height: auto;
+    object-fit: contain;
+    top: 229px;
+    left: 600px;
+    z-index: 0x0;
+}
+    
+
+.logo {
+    position: absolute;
+    width: 4.5%;
+    height: auto;
+    object-fit: contain;
+    top: 8px;
+    left: 120px;
+    z-index: 0x0;    
+}
+
+.me1 {
+    position: absolute;
+    width: 28.98%;
+    height: auto;
+    object-fit: contain;
+    top: 85px;
+    left: 1090.5px;
+    z-index: 0x0;
+}
